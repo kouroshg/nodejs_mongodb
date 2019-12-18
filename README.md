@@ -1,7 +1,10 @@
 # nodejs_mongodb
 
+$ npm run start
+
 # endpoint to Create new User (POST)
-/users/new
+
+localhost:8080/users/new
 
 # example json body:
 {
@@ -26,7 +29,7 @@
 }
 
 # endpoint to Update existing User (PUT)
-/users/:id
+localhost:8080/users/:id
 
 # example json body:
 {
@@ -49,8 +52,8 @@
 }
 
 # endpoint to Delete User (DELETE):
-/users/:id
+localhost:8080/users/:id
 
 # endpoint to Get All Users (GET):
-/users
+localhost:8080/users
 
